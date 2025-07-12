@@ -39,7 +39,7 @@ Shivam Gupta – Full Stack Developer (B.Tech CSE 2024)
     };
 
     try {
-      const res = await fetch("http://localhost:5000/api/job-analyzer", {
+      const res = await fetch("https://shivam-gupta-portfolio-server.onrender.com/api/job-analyzer", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
