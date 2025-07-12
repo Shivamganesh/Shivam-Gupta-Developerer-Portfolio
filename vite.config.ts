@@ -4,23 +4,18 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  // optimizeDeps: {
-  //   include: ['pdfjs-dist/build/pdf.worker.entry'],
-  // },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-   build: {
-    rollupOptions: {
-      external: ["pdfjs-dist/build/pdf.worker.min.js"], // important for Vercel
-    },
+  build: {
+    outDir: "dist",
   },
-server: {
-    fs: {
-      allow: [".."],
-    },
-  }
+ server: {
+  // remove: historyApiFallback
+  port: 3000, // ✅ you can keep other config here
+},
+   assetsInclude: ["**/*.pdf"],
 
 });
