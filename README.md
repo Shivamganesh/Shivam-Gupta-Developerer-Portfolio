@@ -1,73 +1,110 @@
-# Welcome to your Lovable project
+<div align="center">
+  <img src="public/Projectimage/hero.png" alt="Banner" width="100%" />
 
-## Project info
+  <h1>💻 Shivam Gupta — Developer Portfolio</h1>
 
-**URL**: https://lovable.dev/projects/becaa99c-380c-444b-9f17-034c39a3ec1c
+  <p>
+    <strong>Full Stack & Mobile App Developer</strong><br />
+    Crafting beautiful, high-performance websites & mobile apps with a touch of AI ✨
+  </p>
 
-## How can I edit this code?
+  <a href="https://shivamgupta-portfolio.vercel.app" target="_blank">
+    🚀 View Live Portfolio
+  </a>
+</div>
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🧠 What's New
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/becaa99c-380c-444b-9f17-034c39a3ec1c) and start prompting.
+> 🚨 Now featuring AI-powered tools:
+- ✅ **AI Job Match Analyzer** — Paste job description & get match score, skill gap analysis, and personalized feedback.
+- 📄 **AI Resume Reviewer** — Upload your resume & get a professional score breakdown, keyword match, red flags & tips.
 
-Changes made via Lovable will be committed automatically to this repo.
+These tools are built with **Groq API + React + Express + PDF.js** for real-time, smart analysis and are beautifully integrated in the portfolio UI.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✨ Overview
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This is my personal developer portfolio crafted with a passion for:
+- creative design 🎨  
+- modern animations 🌀  
+- and now, ✨ **integrated AI career tools**  
 
-Follow these steps:
+It’s designed to highlight not only my **skills & projects**, but also offer **real value** to recruiters and visitors.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📸 Screenshots
 
-# Step 3: Install the necessary dependencies.
-npm i
+| Desktop View | Mobile View |
+|--------------|-------------|
+| ![desktop](public/readme/desktop-preview.png) | ![mobile](public/readme/mobile-preview.png) |
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🚀 Features
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- 🎨 **Stunning Animations** — Powered by Framer Motion & CSS.
+- 🧠 **AI Job & Resume Analyzer** — Real-time feedback using OpenAI/Groq APIs.
+- 💡 **3D Assets** — Homepage includes interactive FBX models.
+- 📱 **Fully Responsive** — Works beautifully on all devices.
+- 🛠️ **Modular Codebase** — Built with clean structure & best practices.
+- 💬 **Dynamic Sections** — Projects, Blog, Testimonials, Contact.
+- 🧩 **Advanced Effects** — Scroll triggers, parallax, hover animations.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🛠️ Tech Stack
 
-## What technologies are used for this project?
+| Category        | Technologies Used |
+|-----------------|-------------------|
+| **Frontend**    | React.js, Vite, Tailwind CSS |
+| **Animations**  | Framer Motion, ScrollTrigger |
+| **3D Elements** | Three.js, react-three-fiber, drei |
+| **AI APIs**     | OpenAI / Groq (LLaMA-3), Express.js |
+| **PDF Parsing** | pdfjs-dist |
+| **Deployment**  | Vercel (frontend), Render (backend API) |
+| **Icons**       | Lucide Icons |
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## ⚙️ AI Tools Deep Dive
 
-## How can I deploy this project?
+### 🔍 AI Job Match Analyzer
+- Paste any job description
+- AI matches it with your resume skills & projects
+- Shows match % score, matched/missing skills, project alignment, suggestions
 
-Simply open [Lovable](https://lovable.dev/projects/becaa99c-380c-444b-9f17-034c39a3ec1c) and click on Share -> Publish.
+### 📄 AI Resume Reviewer
+- Upload PDF resume
+- AI analyzes: score breakdown, matched keywords, red flags, action verbs
+- Suggestions for better formatting, ATS compatibility, etc.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes it is!
+📬 Contact
+Let’s connect and build something great together:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+📧 shivamganesh2002@gmail.com
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🌐 LinkedIn
+
+🧑‍💻 GitHub
+
+---
+
+🏆 Acknowledgements
+Thanks to Framer Motion, Three.js, OpenAI/Groq, and React Native ecosystem.
+
+Special thanks to design inspiration from modern animated portfolios across the globe.
+
+---
+
+📜 License
+This project is licensed under the MIT License.
+
+---
+
+“Design is not just what it looks like and feels like. Design is how it works.” – Steve Jobs
