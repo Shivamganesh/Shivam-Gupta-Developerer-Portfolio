@@ -109,7 +109,7 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
             >
               <a
-  href="/AiAnalyzerPage"
+  href="/ai-tools"
   target="_blank"
   rel="noopener noreferrer"
 >
