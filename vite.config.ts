@@ -10,7 +10,9 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: "dist",
+    rollupOptions: {
+      external: ["pdfjs-dist/build/pdf.worker.min.js"], // important for Vercel
+    },
   },
  server: {
   // remove: historyApiFallback
