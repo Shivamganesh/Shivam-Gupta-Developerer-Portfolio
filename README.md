@@ -8,7 +8,8 @@
     Crafting beautiful, high-performance websites & mobile apps with a touch of AI ✨
   </p>
 
-  <a href="https://shivamgupta-portfolio.vercel.app" target="_blank">
+  <a shivam-gupta-developerer-portfolio1.vercel.app
+" target="_blank">
     🚀 View Live Portfolio
   </a>
 </div>
