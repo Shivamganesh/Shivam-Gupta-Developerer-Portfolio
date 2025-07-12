@@ -11,6 +11,7 @@ import NotFound from "./pages/NotFound";
 import BlogPostPage from "./pages/BlogPostPage";
 import LoadingPage from './components/LoadingScreen';
 import AiAnalyzerPage from "./pages/AiAnalyzerPage";
+import AiToolsPage from "./pages/AiAnalyzerPage";
 
 
 import JobAnalyzer from "./pages/ai-job-analyzer";
@@ -42,7 +43,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/blog/:id" element={<BlogPostPage />} />
-             <Route path="/ai-analyzer" element={<AiAnalyzerPage />} />
+ <Route path="/AiAnalyzerPage" element={<AiToolsPage />} />
                      <Route path="/ai-job-analyzer" element={<JobAnalyzer />} />
                             <Route path="/ai-resume-analyzer" element={<ResumeReviewer />} />
             {/* Catch-all route */}
