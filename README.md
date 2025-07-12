@@ -8,7 +8,7 @@
     Crafting beautiful, high-performance websites & mobile apps with a touch of AI ✨
   </p>
 
-  <a shivam-gupta-developerer-portfolio1.vercel.app" target="_blank">
+  <a href="https://shivam-gupta-developerer-portfolio1.vercel.app" target="_blank">
     🚀 View Live Portfolio
   </a>
 </div>
@@ -73,14 +73,26 @@ It’s designed to highlight not only my **skills & projects**, but also offer *
 ## ⚙️ AI Tools Deep Dive
 
 ### 🔍 AI Job Match Analyzer
-- Paste any job description
-- AI matches it with your resume skills & projects
-- Shows match % score, matched/missing skills, project alignment, suggestions
+- Paste job description
+- AI compares with your resume, skills, projects
+- Shows:
+  - ✅ Match Score (%)
+  - 🔧 Missing Skills
+  - 📦 Project Mapping
+  - 👨‍💼 Experience Comparison
+  - 📈 Suggestions & Fit Summary
+
 
 ### 📄 AI Resume Reviewer
-- Upload PDF resume
-- AI analyzes: score breakdown, matched keywords, red flags, action verbs
-- Suggestions for better formatting, ATS compatibility, etc.
+
+- Upload PDF Resume
+- Get:
+  - 📊 Resume Score
+  - 🧠 Category Scores (Skills, Projects, Education, etc.)
+  - 🧩 Matched / Missing Keywords
+  - ⚠️ Grammar Issues, Red Flags
+  - 🪄 ATS Optimization Tips
+  - ✍️ AI Summary
 
 ---
 
