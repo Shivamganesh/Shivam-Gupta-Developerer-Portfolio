@@ -221,7 +221,7 @@ export const galleryImages: GalleryImageType[] = [
   },
     {
     id: 13,
-    url: '/Projectimage/mojitoimg.jpg',
+    url: '/Projectimage/Mojitoimg.jpg',
     alt: 'Mojito Design',
     caption: 'Mirror of nature',
     aspectRatio: 'landscape',
