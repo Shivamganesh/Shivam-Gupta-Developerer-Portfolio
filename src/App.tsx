@@ -43,7 +43,8 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/blog/:id" element={<BlogPostPage />} />
- <Route path="/AiAnalyzerPage" element={<AiToolsPage />} />
+<Route path="/ai-tools" element={<AiToolsPage />} />
+
                      <Route path="/ai-job-analyzer" element={<JobAnalyzer />} />
                             <Route path="/ai-resume-analyzer" element={<ResumeReviewer />} />
             {/* Catch-all route */}
