@@ -44,7 +44,7 @@ const ResumeReviewer = () => {
           .join(" ") + "\n";
       }
 
-      const response = await fetch("http://localhost:5000/api/resume-analyzer", {
+      const response = await fetch("https://shivam-gupta-portfolio-server.onrender.com/api/resume-analyzer", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ resumeText }),
